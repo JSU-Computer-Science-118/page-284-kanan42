@@ -10,7 +10,7 @@ int main()
 	int limit;
 	cin >> limit;
 	for (i = 1; i <= limit; i++) {
-		number = rand() % 1000;
+		number = rand() % 100;
 		cout << number << "\t";
 
 	}
